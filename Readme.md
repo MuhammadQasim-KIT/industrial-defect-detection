@@ -142,9 +142,13 @@ results/dl/inference/
 Predictions show consistently high confidence (0.97–1.00) with correct classifications.
 
 ▶️ How to Run
+
 Environment
+
 conda create -n defectenv python=3.10
+
 conda activate defectenv
+
 pip install ultralytics opencv-python numpy matplotlib torch torchvision
 
 Pipeline

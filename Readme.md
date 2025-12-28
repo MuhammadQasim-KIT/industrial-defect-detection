@@ -148,9 +148,13 @@ conda activate defectenv
 pip install ultralytics opencv-python numpy matplotlib torch torchvision
 
 Pipeline
+
 1️⃣ python classical_cv/baseline_cv.py
+
 2️⃣ python prepare_neu_cls_from_split.py
+
 3️⃣ python dl_yolov8_cls/train_yolo_cls.py
+
 4️⃣ python dl_yolov8_cls/infer_yolo_cls.py
 
 🧭 Industrial Perspective
